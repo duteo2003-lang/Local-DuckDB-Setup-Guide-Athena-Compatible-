@@ -18,7 +18,7 @@ This allows fast, offline-friendly analytics development with minimal code chang
 ---
 
 ## Step 1: Configure Frontend Event Streaming
-
+![fe-env](fe-env.png)
 Add the following environment variable to the **frontend `.env` file**:
 
 ```env
