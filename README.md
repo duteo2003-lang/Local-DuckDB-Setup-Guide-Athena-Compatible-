@@ -36,6 +36,7 @@ STREAM_DOMAIN=http://192.168.1.88:9999/api
 ---
 
 ## Step 2: Add DuckDB DAO Implementation
+![duck-db](duck-db.png)
 
 Copy the DuckDB DAO implementation file:
 
@@ -58,6 +59,7 @@ db/dao/implements/
 ---
 
 ## Step 3: Add Required Python Dependencies
+![requirement](requirement.png)
 
 Edit the following file:
 
@@ -86,7 +88,8 @@ Placing them in `common_layer` ensures all related containers can access these l
 ---
 
 ## Step 4: Replace Athena DAO with DuckDB DAO
-
+![note-service](note-service.png)
+![statistic](statistic.png)
 ### Example: `NoteService`
 
 #### Before (Athena)
